@@ -11,17 +11,22 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
-    margin: 0; padding: 0;
+    margin: 0 auto;
+     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
 
 }
-
-header, main, footer {
-        border: 1px solid red;
+.img-container {
+    background-image: url(/assets/img/imgOlga.jpg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
 }
+
 
 header {
 
@@ -80,5 +85,57 @@ header {
     transition: color 0.5s;
 }
 .contacts-item a:hover {
+    color: #b50505;
+}
+
+
+
+
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    font-size: 80%;
+    width: 1140px;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+  }
+
+  .social {
+    width: 90px;
+    display: inline-block;
+
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+
+
+
+
+  .footer-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+.footer-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #000;
+    transition: .3s;
+}
+
+.footer-item a {
+
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.footer-item a:hover {
     color: #b50505;
 }
