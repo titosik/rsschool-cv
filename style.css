@@ -22,7 +22,7 @@ body {
 }
 
 .img-container {
-    background-image: url(/imgOlga.jpg);
+    background-image: url(./imgOlga.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     min-height: 100vh;
