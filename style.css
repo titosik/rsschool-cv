@@ -39,8 +39,6 @@ header {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-
-
 }
 
 
@@ -115,15 +113,7 @@ footer {
     text-decoration: none;
   }
 
-  .social {
-    width: 90px;
-    display: inline-block;
 
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-  }
 
 .project-link {
     text-decoration: none;
@@ -164,6 +154,8 @@ footer {
 .information {
     max-width: 50%;
     margin-left: 50%;
+    margin-top: -15px;
+    margin-bottom: -10px;
   }
 
   @media (max-width: 768px) {
@@ -184,6 +176,18 @@ footer {
     }
     .nav-item {
       font-size: smaller;
+    }
+    .titova {
+      padding-left: 20px;
+    }
+    .sectiom_sub {
+      padding-left: 20px;
+    }
+    .contacts-list {
+      padding-left: 0px;
+    }
+    .footer-item {
+      padding-top: -200px;
     }
 
 
