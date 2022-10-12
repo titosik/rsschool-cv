@@ -99,7 +99,10 @@ header {
     color: #b50505;
 }
 
-
+.information_background {
+  max-width: 800px;
+  padding: 20px;
+}
 
 
 
@@ -168,9 +171,22 @@ footer {
       width: 100%;
       background-color: #a4a3a362;
     }
-    .img-container {
-        width: 100%;
+
+    body {
+      font-size: small;
     }
+    .section {
+      margin: 0 auto;
+    }
+    .section-background {
+      margin: 0 auto;
+      max-width: 768px;
+    }
+    .nav-item {
+      font-size: smaller;
+    }
+
+
   }
 
 .container {
@@ -179,6 +195,11 @@ footer {
 
 .section-background {
     background-color: #a4a3a3af;
+    padding: 10px;
 
 
+}
+
+.section {
+  padding: 10px;
 }
